@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
 }
@@ -386,6 +390,47 @@ form{
     margin-top: 10px;
     font-size: 10px;
     color: #0d8770;
+}
+
+.contact{
+    padding: 40px;
+    background-color: #0d8770;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact p{
+    color: #f2d546;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact p:hover{
+    text-decoration: underline;
+}
+
+.column div{
+    font-size: 20px;
+    color: white;
+}
+
+a img{
+    width:35px;
+    height: 35px;
+    background-color: gray;
+}
+
+#scroll{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 
